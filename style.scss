@@ -64,13 +64,18 @@ main {
                         font-weight: 600;
                         border: none;
                         border-radius: 25px;
-                    }
-                    
-                    button:hover {
-                    color: #030303;
-                    background-color: #4f46e5;
-                    box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3);
-                    transform: scale(1.05);
+
+                        &:hover {
+                            color: #030303;
+                            background-color: #4f46e5;
+                            box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3);
+                            transform: scale(1.05);
+                            cursor: pointer;
+
+                            &:active{
+                                transform: scale(0.95);
+                            }
+                        }
                     }
             }
         }

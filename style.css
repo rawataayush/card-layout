@@ -67,4 +67,8 @@ main .card .user-profile button:hover {
   background-color: #4f46e5;
   box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3);
   transform: scale(1.05);
+  cursor: pointer;
+}
+main .card .user-profile button:hover:active {
+  transform: scale(0.95);
 }/*# sourceMappingURL=style.css.map */
